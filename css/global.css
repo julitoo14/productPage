@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+   
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+body{
+    background-color: black;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    background-color: rgba(3, 3, 3, 0.815);
+}
+
+#header-img{
+    width: 12em;
+    margin-left: 2em;
+}
+
+#nav-bar{
+    font-size: 2em;
+    margin-right: 2em;
+}
+
+.nav-link{
+    margin-right: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: rgb(118, 185, 0);
+}
+
+#leyenda{
+    color: black;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(117, 185, 0, 0.507);
+    width: 20%;
+    margin: auto;
+    height: 12em;
+    margin-bottom: 3em;
+    padding: 1em;
+    
+}
+
+#email{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3em;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+    height: 4em;
+    width: 30%;
+    margin: auto;
+}
+
+#title{
+    color: rgb(118, 185, 0);
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}
+
+#subtitle{
+    color: white;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+#description{
+    color: white;
+    font-size: 1.2em;
+}
+
+#product-info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 3em;
+    margin-left: 8em;
+    margin-top: 12em;
+    margin-bottom: 12em;
+    background-color: none;
+}
+
+#Inicio{
+    background-image:url(https://cdn.igromania.ru/mnt/news/5/8/1/b/4/e/98455/be4c222baa55fa91_1920xH.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+    display: flex;
+    width: 100%;
+    background-position-x: right;
+}
+
+#video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    padding: 2em;
+    margin: auto;
+    align-items:center;
+    background-image: url("https://images.nvidia.com/aem-dam/Solutions/geforce/news/bright-memory-adds-ray-tracing-and-nvidia-dlss/bright-memory-early-access-nvidia-dlss-comparison-001.png");
+    background-size: cover;
+    height: 62em;
+    
+}
+
+.video{
+    width: 50%;
+}
+
+h1{
+    color: rgb(118, 185, 0);
+    letter-spacing: 0.1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+h2{
+    color: rgb(118, 185, 0);
+    letter-spacing: 0.1em;
+    margin-bottom: 1em;
+    text-align: center;
+    
+}
+
+p{
+    color: rgb(118, 185, 0);
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#mas-info{
+    text-decoration: none;
+    color: rgb(118, 185, 0);
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#mas-info:hover{
+    color: green;
+}
+
+#video{
+    height: 20em;
+    width: 30%;
+    height: 20em;
+    border: solid 6px rgb(118, 185, 0);
+}
+
+#leyenda{
+    text-align: center;
+    margin-top: 0.4em;
+    font-size: 2em;
+}
+
+.line{
+    width: 90%;
+    height: 0.05em;
+    background-color: gray;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#especificaciones{
+    display: flex;
+    flex-direction: column;
+}
+
+#title-e{
+    color: white;
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+
+.esp-line{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 20%;    
+}
+
+.divisor{
+    height: 1px;
+    background-color: gray;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.right{
+    color: white;
+}
+
+.left{
+    color: rgb(128, 126, 126);
+}
+
+.suscribirse{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 1.5em;
+}
+
+#footer{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 1em;
+   
+}
+
+#footer-logo{
+    width: 15%;
+    position: relative;
+    top: -0.5em;
+    left: -1.3em;
+}
+
+#footer-logo-div{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 4em;
+}
+
+#footer-menu{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.bar{
+    background-color: gray;
+    width: 0.01em;
+    height: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.a-footer{
+    text-decoration: none;
+    color: black;
+}
+
+#copyright{
+    color: black;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+#copy-c{
+    display: flex;
+    align-items: flex-start;
+    width:  60%;
+    margin: auto;
+}
+
+@media (max-width:47em){
+   
+    *{
+        margin: 0;
+    }
+   
+    #header{
+       flex-direction: column;
+       position: initial;
+   }
+
+   #nav-bar{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       width: 100%;
+       margin-right: 0em;
+   }
+
+   .nav-link{
+    margin: 0;
+   }
+
+   #header-img{
+       margin: 0
+   }
+
+   #inicio{
+       flex-direction: column;
+       justify-content: center;
+       background-image: none;
+   }
+
+   #product-info{
+       margin: 0;
+       margin: auto;
+       width: auto;
+   }
+
+   #description{
+       text-align: center;
+       margin: auto;
+       width: 100%;
+   }
+
+   #video{
+    height: auto;
+    width: 80%;
+    height: 10em;
+    border: solid 6px rgb(118, 185, 0);
+}
+
+#video-container{
+    width: 80%;
+    margin: 0;
+    background-image: none;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.video{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+#video-title{
+    color: rgb(118, 185, 0);
+}
+
+.esp-line{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;    
+}
+
+.divisor{
+    width: 80%;
+}
+
+#form{
+    width: 80%;
+}
+
+#footer-menu{
+    flex-direction: column;
+}
+
+.bar{
+    height: 1px;
+    width: 80%;
+}
+
+
+#copy-c{
+    margin-top: 2em;
+}
+
+#footer-logo{
+    width: 50%;
+    top:-0.7em;
+}
+
+}
